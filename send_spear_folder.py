@@ -11,8 +11,8 @@ FOLDER = "spear"
 CHECK_INTERVAL = 10        # seconds between folder scans
 # =========================
 
-TOKEN = os.environ.get("RUBIKA_TOKEN")
-CHAT_ID = os.environ.get("RUBIKA_CHAT_ID")
+TOKEN = "BEFFCB0LOMWUIJNBPJOMUMAGPUNXTEAVNPNCALSVYDAHAKHLQJSVRELLDYIVSSLE"
+CHAT_ID = "b0JWE2R0eGb0bd44d81e266c10686971"
 
 if not TOKEN or not CHAT_ID:
     print("❌ Missing RUBIKA_TOKEN or RUBIKA_CHAT_ID")
